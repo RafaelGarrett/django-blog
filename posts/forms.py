@@ -16,6 +16,6 @@ class PostForm(forms.ModelForm):
             }),
             'data': forms.DateInput(attrs={
                 'class': 'datepicker',
-                'placeholder': '2021-03-07'
+                'placeholder': 'AAAA-DD-MM'
             })
         }
